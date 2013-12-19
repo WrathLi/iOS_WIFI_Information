@@ -16,6 +16,9 @@
 		185A52B31862EB5800BF28F9 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 185A52B21862EB5800BF28F9 /* Default.png */; };
 		185A52B51862EB5800BF28F9 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 185A52B41862EB5800BF28F9 /* Default@2x.png */; };
 		185A52B71862EB5800BF28F9 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 185A52B61862EB5800BF28F9 /* Default-568h@2x.png */; };
+		185A52C41862EB9200BF28F9 /* getgateway.c in Sources */ = {isa = PBXBuildFile; fileRef = 185A52BD1862EB9200BF28F9 /* getgateway.c */; };
+		185A52C51862EB9200BF28F9 /* WifiManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 185A52C11862EB9200BF28F9 /* WifiManager.m */; };
+		185A52C61862EB9200BF28F9 /* WifiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185A52C31862EB9200BF28F9 /* WifiViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +35,13 @@
 		185A52B21862EB5800BF28F9 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		185A52B41862EB5800BF28F9 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		185A52B61862EB5800BF28F9 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		185A52BD1862EB9200BF28F9 /* getgateway.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = getgateway.c; sourceTree = "<group>"; };
+		185A52BE1862EB9200BF28F9 /* getgateway.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = getgateway.h; sourceTree = "<group>"; };
+		185A52BF1862EB9200BF28F9 /* route.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = route.h; sourceTree = "<group>"; };
+		185A52C01862EB9200BF28F9 /* WifiManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WifiManager.h; sourceTree = "<group>"; };
+		185A52C11862EB9200BF28F9 /* WifiManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WifiManager.m; sourceTree = "<group>"; };
+		185A52C21862EB9200BF28F9 /* WifiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WifiViewController.h; sourceTree = "<group>"; };
+		185A52C31862EB9200BF28F9 /* WifiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WifiViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +88,13 @@
 		185A52A61862EB5800BF28F9 /* iOS_WIFI_Information */ = {
 			isa = PBXGroup;
 			children = (
+				185A52BD1862EB9200BF28F9 /* getgateway.c */,
+				185A52BE1862EB9200BF28F9 /* getgateway.h */,
+				185A52BF1862EB9200BF28F9 /* route.h */,
+				185A52C01862EB9200BF28F9 /* WifiManager.h */,
+				185A52C11862EB9200BF28F9 /* WifiManager.m */,
+				185A52C21862EB9200BF28F9 /* WifiViewController.h */,
+				185A52C31862EB9200BF28F9 /* WifiViewController.m */,
 				185A52AF1862EB5800BF28F9 /* WifiManagerAppDelegate.h */,
 				185A52B01862EB5800BF28F9 /* WifiManagerAppDelegate.m */,
 				185A52A71862EB5800BF28F9 /* Supporting Files */,
@@ -167,6 +184,9 @@
 			files = (
 				185A52AD1862EB5800BF28F9 /* main.m in Sources */,
 				185A52B11862EB5800BF28F9 /* WifiManagerAppDelegate.m in Sources */,
+				185A52C41862EB9200BF28F9 /* getgateway.c in Sources */,
+				185A52C51862EB9200BF28F9 /* WifiManager.m in Sources */,
+				185A52C61862EB9200BF28F9 /* WifiViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
