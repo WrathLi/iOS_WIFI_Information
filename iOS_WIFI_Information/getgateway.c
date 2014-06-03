@@ -69,6 +69,8 @@ char * getdefaultgateway(in_addr_t * addr)
 						 sprintf(tmp,"%d.%d.%d.%d",octet[0],octet[1],octet[2],octet[3]);
 						 printf("gateway : %s\n",tmp);
 						 printf("gateway address--%d.%d.%d.%d\n",octet[0],octet[1],octet[2],octet[3]);
+                    //when WiFi and 3G online at the same tiem,return WiFi Gateway
+                    break;
                 }
             }
         }
